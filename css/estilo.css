@@ -7,7 +7,7 @@ html, body{
 header{
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin: 10px;
 }
@@ -46,17 +46,7 @@ p{
     margin: 10px;
 }
 
-@media(min-width:360px){
-    header{
-        flex-direction: column;
-    }
-    nav{
-        flex-direction: column;
-
-    }
-}
-
-@media (max-width:760px){
+@media (min-width:760px){
     #logoj{
         display: none;
         height: 150px;
@@ -67,4 +57,6 @@ p{
         height: 110px;
         width: 200px;
     }
+    header{
+        flex-direction:row;
 }
