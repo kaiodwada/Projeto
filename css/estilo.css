@@ -28,8 +28,10 @@ header{
     color: chartreuse;
 }
 main{
-    display: flex;
-    flex-flow: column wrap;
+   display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-content: center;
 }
 main img{
     height: 250px;
@@ -50,7 +52,8 @@ main img{
         justify-content:space-between;
 }
     main{
-        flex-flow:row nowrap;
+        flex-direction:ele;
+        flex-wrap:nowrap;
 }
     p{
         width:50%;
