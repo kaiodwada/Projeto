@@ -8,6 +8,7 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: column;
+     flex-wrap:wrap;
     align-items: center;
     margin: 10px;
 }
@@ -23,7 +24,6 @@ nav{
     display: flex;
     justify-content: center;
     margin: 20px;
-    flex-direction: column;
 }
 .menu a{
     text-decoration: none;
@@ -43,19 +43,16 @@ main img{
 }
 p{
     width: 50%;
-    margin: 10px;
 }
 
 @media (min-width:760px){
     #logoj{
-        display:none;
+        display:block;
         height: 150px;
         width: 200px;
     }
     #logo{
-        display: block;
-        height: 110px;
-        width: 200px;
+        display: none
     }
     header{
         flex-direction:row;
