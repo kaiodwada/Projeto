@@ -61,6 +61,7 @@ main img{
     header{
         flex-direction:row;
         justify-content:space-between;
+        flex-wrap:nowrap;
 }
     main{
         flex-direction:row;
