@@ -28,8 +28,9 @@ header{
     color: chartreuse;
 }
 main{
-   display:flex;
+   	display:flex;
 	flex-wrap:wrap;
+	flex-direciotn:column;
 	justify-content:center;
 	align-content: center;
 }
