@@ -14,11 +14,11 @@ header{
 }
 
 #logo{
-    display: none;
+    height:100px;
+    width:250px;
 }
 #logoj{
-    height: 100px;
-    width: 135px;
+    display:none;
 }
 nav{
     display: flex;
