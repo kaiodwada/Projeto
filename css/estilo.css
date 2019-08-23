@@ -35,9 +35,6 @@ main img{
     height: 250px;
     width: 500px;
 }
-p{
-    width: 50%;
-}
 
 @media (min-width:760px){
     #logoj{
@@ -53,8 +50,8 @@ p{
         justify-content:space-between;
 }
     main{
-        flex-flow:row wrap;
+        flex-flow:row nowrap;
 }
     p{
-        margin-bottom:15px;
+        width:50%;
 }
