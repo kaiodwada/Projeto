@@ -60,4 +60,9 @@ main img{
         flex-direction:row;
         flex-wrap:nowrap;
 }
+    .menu{
+        flex-direction:row;
+         flex-wrap:wrap;
+}
+
 }
