@@ -52,7 +52,7 @@ main img{
         justify-content:space-between;
 }
     main{
-        flex-direction:ele;
+        flex-direction:row;
         flex-wrap:nowrap;
 }
     p{
