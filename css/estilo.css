@@ -23,7 +23,7 @@ nav{
     display: flex;
     justify-content: center;
     margin: 20px;
-    flex-direction: row;
+    flex-direction: column;
 }
 .menu a{
     text-decoration: none;
@@ -35,14 +35,14 @@ nav{
 }
 main{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
 }
 main img{
     height: 250px;
     width: 500px;
 }
 p{
-    width: 500px;
+    width: 50%;
     margin: 10px;
 }
 
@@ -60,4 +60,10 @@ p{
     header{
         flex-direction:row;
         justify-content:space-between;
+}
+    main{
+        flex-flow:row wrap;
+}
+    p{
+        margin-bottom:5px;
 }
