@@ -48,12 +48,12 @@ p{
 
 @media (min-width:760px){
     #logoj{
-        display: none;
+        display:block;
         height: 150px;
         width: 200px;
     }
     #logo{
-        display: block;
+        display: none;
         height: 110px;
         width: 200px;
     }
