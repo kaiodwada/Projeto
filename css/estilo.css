@@ -19,6 +19,10 @@ header{
 #logoj{
     display:none;
 }
+.menu{
+     flex-direction:column;
+     flex-wrap:wrap;
+}
 .menu a{
     text-decoration: none;
     margin: 10px;
@@ -55,8 +59,5 @@ main img{
     main{
         flex-direction:row;
         flex-wrap:nowrap;
-}
-    p{
-        width:50%;
 }
 }
