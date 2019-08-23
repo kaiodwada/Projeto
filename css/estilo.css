@@ -19,6 +19,11 @@ header{
 #logoj{
     display:none;
 }
+main{ display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-content: center; }
+
 .menu{
      display:flex;
      flex-direction:column;
@@ -65,5 +70,7 @@ main img{
         flex-direction:row;
          flex-wrap:wrap;
 }
-
+    main p{
+       width:50%;
+}
 }
