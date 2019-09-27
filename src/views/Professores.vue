@@ -1,78 +1,29 @@
 <template>
+  <v-layout>
 
-   <v-layout >
-
-        <v-card class="mx-5 my-5"  width="100%" height="50">
-            <div class="blue">
-            <p class="text-center md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum maiores modi quidem veniam, expedita quis laboriosam, ullam facere adipisci, iusto, voluptate sapiente corrupti asperiores rem nemo numquam fuga ab at.</p>
-            </div>
-        </v-card>
-
-    <v-flex xs12 sm6>
-      <v-card class="my-5  mx-5 float-sm-left">
-        <v-img
-          src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
-          aspect-ratio="2.22"
-        ></v-img>
-
-        <v-card-title primary-title>
-          <div >
-            <h3 class="headline mb-2">Lorem</h3>
-            <div> {{ card_text }} </div>
-          </div>
-        </v-card-title>
-
-      </v-card>
-    </v-flex>
+   
 
 
-     <v-flex xs12 sm6>
-      <v-card class="my-5 mx-5 float-sm-left">
-        <v-img
-          src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
-          aspect-ratio="2.22"
-        ></v-img>
+    <v-container class="grey lighten-5 ">
+      <v-row no-gutters>
+        <v-col v-for="n in 3" :key="n" cols="5" sm="4">
+          <v-card class="pa-2">
+            <v-img
+              src="../assets/prof.jpg"
+              aspect-ratio="1"
+              max-width="250"
+              max-height="300"
+            ></v-img>
 
-        <v-card-title primary-title>
-          <div >
-            <h3 class="headline mb-2">Lorem</h3>
-            <div> {{ card_text }} </div>
-          </div>
-        </v-card-title>
-
-      </v-card>
-    </v-flex>
-
-
- <v-flex xs12 sm6>
-      <v-card class="my-5 mx-5 float-sm-left">
-        <v-img
-          src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
-          aspect-ratio="2.22"
-        ></v-img>
-
-        <v-card-title primary-title>
-          <div >
-            <h3 class="headline mb-2">Lorem</h3>
-            <div> {{ card_text }} </div>
-          </div>
-        </v-card-title>
-
-      </v-card>
-    </v-flex>
-
-
+            <h1>Professor Lucas</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos beatae dicta ex molestiae amet quam fugiat ea dolore iure perspiciatis voluptatem nemo animi, velit iusto asperiores nostrum quae officiis ducimus.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, exercitationem iusto? Sequi, similique cumque. Eius dolorem animi, commodi quae fugiat libero fugit, impedit, laboriosam sint aliquid molestias inventore tempore expedita!
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. In odit quis, rem eum temporibus culpa blanditiis eligendi quaerat saepe adipisci sed autem. Aperiam nobis eaque, amet rem aliquam eum quo.
+            </p>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
   </v-layout>
-
 </template>
-
-<script>
-  export default {
-    data () {
-      return {
-        card_text: 'Lorem ipsum dolor sit amet, brute iriure accusata ne mea. Eos suavitate referrentur ad, te duo agam libris qualisque, utroque quaestio accommodare no qui. Et percipit laboramus usu, no invidunt verterem nominati mel. Dolorem ancillae an mei, ut putant invenire splendide mel, ea nec propriae adipisci. Ignota salutandi accusamus in sed, et per malis fuisset, qui id ludus appareat.'
-      }
-    }
-  }
-</script>
-

@@ -12,11 +12,11 @@
       <div class="flex-grow-1"></div>
       <v-layout justify-end align-content-center>
         <v-toolbar-items v-if="$vuetify.breakpoint.mdAndUp">
-          <router-link to="/professores">
-            <v-btn text>Professores</v-btn>
-          </router-link>
           <router-link to="/classes">
             <v-btn text>Cursos</v-btn>
+          </router-link>
+          <router-link to="/professores">
+            <v-btn text>Professores</v-btn>
           </router-link>
           <router-link to="/about">
             <v-btn text>Sobre</v-btn>
@@ -38,14 +38,14 @@
 
         <v-list-item-group>
           <v-list-item>
-            <router-link to="/professores">
-              <v-list-item-title>Professores</v-list-item-title>
+            <router-link to="/classes">
+              <v-list-item-title>Cursos</v-list-item-title>
             </router-link>
           </v-list-item>
 
           <v-list-item>
-            <router-link to="/classes">
-              <v-list-item-title>Cursos</v-list-item-title>
+            <router-link to="/professores">
+              <v-list-item-title>Professores</v-list-item-title>
             </router-link>
           </v-list-item>
 
