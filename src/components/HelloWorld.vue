@@ -1,9 +1,9 @@
 <template>
   <v-container pa-0 ma-0 fluid>
-    <v-layout align-center justify-center text-center>
+    <v-layout align-center justify-center text-center class="my-5">
 
       <v-row>
-      <v-card min-width="auto" width="100%" max-width="auto" height="20rem" dark color="indigo"> <v-layout class="flex-wrap" justify-center="" align-center="" >
+      <v-card min-width="auto" width="100%" max-width="auto" height="13rem" dark color="indigo"> <v-layout class="flex-wrap" justify-center="" align-center="" >
         <v-card-title> <h2 class="tituloh">Bem vindos a Diorama! </h2></v-card-title>
       
      <v-card-text> <p class="textop">Escola on-line que fornece os melhores cursos sobre design,programação e suas diversas variações, venha conhecer nossos cursos!</p>  </v-card-text>
@@ -127,14 +127,14 @@ export default {
 <style>
 
 .textop{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+}
+.tituloh {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
-.tituloh{
-  font-size: 3rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
 
 .spacer {
   margin-top: 0.5rem;
