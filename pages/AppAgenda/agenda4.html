@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- LINKS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/materialize.min.css">
+    <link rel="stylesheet" href="../../css/cssmain.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <!-- FIM DOS LINKS -->
+    <title>Nome Agenda</title>
+</head>
+
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="menu">
+            <nav>
+                <div class="nav-wrapper z-depth pink lighten-2">
+                    <a href="index.html" class="brand-logo">CantinhoDaDe</a>
+                    <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html"><i
+                            class="material-icons left">home</i>Home</a></li>
+                        <li><a href="./pages/agendas.html"><i
+                            class="material-icons left">book</i>Agendas</a></li>
+                        <li><a href="./pages/cadernetas.html"><i
+                            class="material-icons left">child_care</i>Cadernetas</a></li>
+                        <li><a href="./pages/about.html"><i
+                            class="material-icons left">add</i>Sobre</a></li>
+                        <a href="https://www.facebook.com/danilodebora.baldassarini" class="waves-effect waves-light btn z-depth-0 indigo darken-3"><i
+                                class="material-icons left">facebook</i>Facebook</a>
+                    </ul>
+
+                </div>
+            </nav>
+            <ul class="sidenav right-align center-align" id="mobile">
+                <li><a href="index.html"><i
+                    class="material-icons left">home</i>Home</a></li>
+                <li><a href="./pages/agendas.html"><i
+                    class="material-icons left">book</i>Agendas</a></li>
+                <li><a href="./pages/cadernetas.html"><i
+                    class="material-icons left">child_care</i>Cadernetas</a></li>
+                <li><a href="./pages/about.html"><i
+                    class="material-icons left">add</i>Sobre</a></li>
+                <a href="https://www.facebook.com/danilodebora.baldassarini" target="_blank" class="waves-effect waves-light btn z-depth-0 indigo darken-3"><i
+                        class="material-icons left">facebook</i>Facebook</a>
+            </ul>
+
+        </div>
+    </header>
+    <!-- FIM DO CABEÇALHO -->
+
+    <main>
+
+
+        <div class="row">
+            <div class="col s12 l12">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <hr>
+                        <span class="card-title center-align">Agenda Modelo 4</span>
+                        <p class="center-align">I am a very simple card. I am good at containing small bits of
+                            information.
+                            I am convenient because I require little markup to use effectively.</p>
+                        <hr>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col s12 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../../img/galeria/agendas/agenda4.jpeg">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+        <div>
+            <table class="responsive-table highlight margin-table">
+                <thead>
+                    <tr>
+                        <th>Acompanhamentos</th>
+                        <th>Personalizar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CALENDARIO</td>
+
+                        <td>
+                            <i class="material-icons" style="color:green;">done</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>BOLSA PARA GUARDAR FOLHAS</td>
+
+                        <td>
+                            <i class="material-icons" style="color:green;">done</i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>CHAVEIRO</td>
+                        <td>
+                            <i class="material-icons" style="color:green;">done</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>ELASTICO</td>
+                        <td>
+                            <i class="material-icons" style="color:green;">done</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CONTRA-CAPA</td>
+                        <td>
+                            <i class="material-icons" style="color:green;">done</i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+        </div>
+
+
+
+
+
+
+    </main>
+    <!-- RODAPÉ -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Rodapé</h5>
+                    <p class="grey-text text-lighten-4">Se você quer conhecer mais sobre o nosso trabalho acesse as
+                        redes sociais </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i
+                                    class="material-icons left">facebook</i>Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Todos os direitos reservados Copyright © 2021
+            </div>
+        </div>
+    </footer>
+    <!-- FIM DO RODAPÉ -->
+
+    <script src="../../js/materialize.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const myMenu = document.querySelectorAll('.sidenav');
+            M.Sidenav.init(myMenu, {});
+        });
+
+    </script>
+</body>
+
+</html>
